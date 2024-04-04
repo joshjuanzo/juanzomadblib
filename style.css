@@ -1,0 +1,84 @@
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-left: 4px solid blue;
+  border-bottom: 4px solid blue;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.noun { color: blue; }
+.adjective { color: green; }
+.interjection { color:orange; }
+.pronoun { color: pink }
+.conjunction { color: red }
+.verb {color:purple;}
+.adverb { color: yellow; }
+.preposition {color:indigo;}
+
+.custom-text1 {
+font-family: 'Monaco', monospace; 
+font-weight: bold;
+color: blue;
+font-size: 15px; 
+}
+.custom-text2 {
+font-family: 'Monaco', monospace; 
+font-weight: bold;
+color: green;
+font-size: 15px; 
+}
+.custom-text3 {
+font-family: 'Monaco', monospace; 
+font-weight: bold;
+color: orange;
+font-size: 15px; 
+}
+.custom-text4 {
+font-family: 'Monaco', monospace; 
+font-weight: bold;
+color: pink;
+font-size: 15px; 
+}
+.custom-text5 {
+font-family: 'Monaco', monospace; 
+font-weight: bold;
+color: red;
+font-size: 15px; 
+}
+.custom-text6 {
+font-family: 'Monaco', monospace; 
+font-weight: bold;
+color: purple;
+font-size: 15px; 
+}
+.custom-text7 {
+font-family: 'Monaco', monospace; 
+font-weight: bold;
+color: yellow;
+font-size: 15px; 
+}
+.custom-text8{
+font-family: 'Monaco', monospace; 
+font-weight: bold;
+color: indigo;
+font-size: 15px; 
+}
+.script-box {
+  border: 20px solid black;
+  padding: 20px; 
+  margin-top: 20px;
+  background-color: white;
+}
