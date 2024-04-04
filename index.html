@@ -3,6 +3,8 @@
 <head>
    <title>JUANZO MADLIB</title>
    <link rel="stylesheet" href="style.css">
+   <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app-compat.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore-compat.js"></script>
 </head>
 <body>
   <img class="center" src="J.Juanzo.png" alt="jjuanzologo">
@@ -25,7 +27,22 @@
   </div>
 
   <p>Source:<a href="https://www.glowwordbooks.com/blog/2013/09/04/8-parts-of-speech-mad-libs/" target="_blank"><span id="a">GlowWordBook</span></a></p>
-  
+<script type="module">
+  import {getFirestore} from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app-compat.js";
+  const firebaseConfig = {
+    apiKey: "AIzaSyCmNtyoAAgzCFHgqJP13IFVBRPaQ6XqOAk",
+    authDomain: "madlibs-cdad0.firebaseapp.com",
+    projectId: "madlibs-cdad0",
+    storageBucket: "madlibs-cdad0.appspot.com",
+    messagingSenderId: "824299634527",
+    appId: "1:824299634527:web:2f6e6a64467d66e47700ea"
+  };
+
+const app = initializeApp(firebaseConfig);
+vardb = getFirestore(app);
+console.log("firebase setup complete!");
+</script>
+<script src="script.js"></script>
 </body>
 </html>
 
