@@ -1,32 +1,20 @@
-html,
-body {
-    font-family: Arial, Helvetica, sans-serif;
+h1, h2 {
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
 }
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+h3{
+  text-align: left;
 }
-h1 {
-  margin-left: 20px;
-  margin-right: 20px;
-  border-left: 4px solid blue;
-  border-bottom: 4px solid blue;
-  padding-left: 5px;
-  padding-bottom: 5px;
-}
-p {
-  margin-left: 20px;
-  margin-right: 20px;
-}
+
 .noun { color: blue; }
 .adjective { color: green; }
-.interjection { color:orange; }
-.pronoun { color: pink }
-.conjunction { color: red }
-.verb {color:purple;}
-.adverb { color: yellow; }
-.preposition {color:indigo;}
+.interjection { color: orange; }
+.pronoun { color: fuchsia; }
+.conjunction { color: red; }
+.verb { color: purple; }
+.adverb { color: brown; }
+.preposition { color: indigo; }
 
 .custom-text1 {
 font-family: 'Monaco', monospace; 
@@ -49,7 +37,7 @@ font-size: 15px;
 .custom-text4 {
 font-family: 'Monaco', monospace; 
 font-weight: bold;
-color: pink;
+color: fuchsia;
 font-size: 15px; 
 }
 .custom-text5 {
@@ -67,7 +55,7 @@ font-size: 15px;
 .custom-text7 {
 font-family: 'Monaco', monospace; 
 font-weight: bold;
-color: yellow;
+color:brown;
 font-size: 15px; 
 }
 .custom-text8{
@@ -76,9 +64,56 @@ font-weight: bold;
 color: indigo;
 font-size: 15px; 
 }
-.script-box {
+
+form {
+  width: fit-content;
   border: 20px solid black;
   padding: 20px; 
-  margin-top: 20px;
+  margin: 20px;
   background-color: white;
+  text-align: right;
+  float: left;
+}
+
+body	{	
+  padding: 0;
+  border: 0;
+  background: #DFDFC8;
+  text-align: center;
+}	
+
+input {
+  width: 15em;
+  margin-left: 1em;
+  margin-bottom: .5em;
+}
+
+#button, #reset {
+  width: 7em;
+  background-color: silver;
+  margin-top: 10px; 
+}
+
+#button, #reset { 
+  margin-left: auto; 
+}
+
+#output { 
+ text-align: center;
+ font-size: 40px;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align:left;
+}
+.script-box {
+  width: fit-content;
+  border: 20px solid black;
+  padding: 20px; 
+  margin: 20px;
+  background-color: white;
+  text-align: right;
+  float: left;
 }
